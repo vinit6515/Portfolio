@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinit Shah - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body>
+   
+    <header>
+        <nav>
+            <ul class="listElements">
+                <li class="listElements_items"><a class="listElements_links" href="#home">Home</a></li>
+                <li class="listElements_items"><a class="listElements_links"href="#about">About Me</a></li>
+                <li class="listElements_items"><a class="listElements_links" href="#projects">Education</a></li>
+                <li class="listElements_items"><a class="listElements_links" href="#skills">Skills</a></li>
+                <li class="listElements_items"><a class="listElements_links" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <image src="resume.jpg" style="width:10vw;height:20vw;"></image>
+        
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        I am a person who believes in doing a lot of hardwork and try to give my 100 % in any possible way.
+        <p> I consider my team's goal before my personal goals.</p>
+        <p>I am always eager to learn new things with new people and explore different opportunities.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Education</h2>
+        <p>SVKM Dwarkadas J Sanghvi College Of Engineering</p>
+        <p>B.Tech in Computer Engineering</p>
+        <p>2022-2026</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>C Programming</li>
+            <li>Java </li>
+            <li>HTML</li>
+            <li>Competetive Programming</li>
+            <li>Leadership</li>
+            <li>Communication Skills</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <p> Contact Number: +91-9029591602</p>
+            <p>Email: vinitshah6315@gmail.com</p>
+            <p>LinkedIn Profile: <a href="http://www.linkedin.com/in/vinit-shah-77503b255">www.linkedin.com/in/vinit-shah-77503b255</a> </p>
+            <button type="submit">Submit</button>
+
+        </form>
+        <button type="button" class="btn btn-outline-dark" onclick="darkMode()">Dark</button>
+        <button type="button" class="btn btn-outline-light" onclick="lightMode()">Light</button>
+       
+    </section>
+
+
+    <footer>
+        <p>&copy; 2023 Vinit Shah</p>
+    </footer>
+
+    <script >
+         function darkMode() {
+            let element = document.body;
+            
+            element.className = "dark-mode";
+            
+        }
+        function lightMode() {
+            let element = document.body;
+            
+            element.className = "light-mode";
+            
+        }
+
+    </script>
+</body>
+</html>
